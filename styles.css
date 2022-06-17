@@ -13,5 +13,14 @@ header{
 
 }
 main{
+    /*as child container*/
     grid-column:2/6;
+}
+main article{
+    display:grid;
+    grid-template-columns: 2fr 1fr;
+}
+.cards{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
 }
