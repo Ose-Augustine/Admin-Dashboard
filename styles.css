@@ -5,9 +5,9 @@ body{
 header{
     grid-column:2/4;
     grid-row:1/2;
-    background-color: red;
+    border:5px solid red;
 }
 .sidebar{
     grid-area:1/1/4/2;
-    background-color: blue;
+    border:5px solid blue;
 }
