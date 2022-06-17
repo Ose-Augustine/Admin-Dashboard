@@ -1,13 +1,17 @@
 body{
     display:grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns:repeat(5,1fr);
 }
 header{
-    grid-column:2/4;
+    grid-column:2/6;
     grid-row:1/2;
     border:5px solid red;
 }
 .sidebar{
     grid-area:1/1/4/2;
     border:5px solid blue;
+
+}
+main{
+    grid-column:2/6;
 }
