@@ -15,12 +15,27 @@ header{
 main{
     /*as child container*/
     grid-column:2/6;
+    background-color: rgb(108, 106, 109);
 }
 main article{
     display:grid;
     grid-template-columns: 2fr 1fr;
+    gap:10px;
+    padding-right:30px;
 }
 .cards{
     display:grid;
-    grid-template-columns:repeat(2,1fr);
+    grid-template-columns:repeat(2,1fr); 
+    gap:5px;
+    padding-bottom:20px;
+}
+.cards div {
+    background-color: white;
+    border-radius:5px;
+    padding:10px;
+    
+}
+.announce-cards{
+    background-color: white;
+    border-radius:5px;
 }
