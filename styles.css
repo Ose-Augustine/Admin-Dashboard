@@ -1,6 +1,6 @@
 body{
     display:grid;
-    grid-template-columns:repeat(5,1fr);
+    grid-template-columns:repeat(6,1fr);
 }
 header{
     grid-column:2/6;
@@ -31,11 +31,13 @@ main article{
 }
 .cards div {
     background-color: white;
+    box-shadow:inset 6px 0px gold;
     border-radius:5px;
     padding:10px;
     
 }
-.announce-cards{
+.announce-cards,
+.trend-cards{
     background-color: white;
     border-radius:5px;
 }
