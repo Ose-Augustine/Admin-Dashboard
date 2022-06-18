@@ -28,6 +28,12 @@ header{
     grid-template-columns: 40px 400px;
     grid-template-rows: 20px;
 }
+.notification{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px;
+    border:3px solid brown;
+}
 .sidebar{
     grid-area:1/1/4/2;
     border:5px solid blue;
