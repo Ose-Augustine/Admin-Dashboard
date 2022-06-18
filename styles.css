@@ -11,7 +11,8 @@ header{
     grid-row:1/2;
     border:5px solid red;
 }
-.header-top{
+.header-top,
+.header-bottom{
     border:1px solid orange;
     padding:20px 30px 20px 30px;    
     display:flex;
@@ -28,11 +29,21 @@ header{
     grid-template-columns: 40px 400px;
     grid-template-rows: 20px;
 }
-.notification{
+.notification,
+.interactive{
     display:grid;
     grid-template-columns: repeat(3,1fr);
     gap:10px;
-    border:3px solid brown;
+    /* border:3px solid brown; */
+}
+.interactive > div {
+    border:2px solid green;
+    border-radius:15px;
+    text-align: center;
+    padding:8px 30px 8px 30px;
+}
+.largest-item{
+    display:flex;
 }
 .sidebar{
     grid-area:1/1/4/2;
@@ -71,4 +82,7 @@ main article{
     display:grid;
     grid-template-rows:repeat(2,1fr);
     grid-row-gap:10px;
+}
+ul{
+    list-style-type: none;
 }
