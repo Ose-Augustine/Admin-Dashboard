@@ -13,19 +13,24 @@ header{
 }
 .header-top{
     border:1px solid orange;
+    padding:20px 30px 20px 30px;    
     display:flex;
+    justify-content:space-between;
 }
 .searchinput{
     border:1px solid violet;
     display:grid;
+    border-radius: 5px;
+    background-color: #d1d5db;
 }
 .searchbar{
-    display:flex;
+    display:grid;
+    grid-template-columns: 40px 400px;
+    grid-template-rows: 20px;
 }
 .sidebar{
     grid-area:1/1/4/2;
     border:5px solid blue;
-
 }
 main{
     /*as child container*/
@@ -40,7 +45,7 @@ main article{
 }
 .pcards{
     display:grid;
-    grid-template-columns:repeat(2,1fr); 
+    grid-template-columns:repeat(2,1fr);
     gap:20px;
     padding-bottom:20px;
 }
@@ -49,7 +54,7 @@ main article{
     box-shadow:inset 6px 0px rgb(124, 111, 36);
     border-radius:5px;
     padding:10px;
-    
+
 }
 .announce-cards,
 .trend-cards{
