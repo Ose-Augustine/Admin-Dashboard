@@ -83,12 +83,16 @@ main article{
     gap:20px;
     padding-bottom:20px;
 }
-.pcards div {
+.pcards > div {
     background-color: white;
     box-shadow:inset 6px 0px rgb(124, 111, 36);
     border-radius:5px;
     padding:10px;
 
+}
+aside{
+    margin-left:230px;
+    padding-top:20px;
 }
 .announce-cards,
 .trend-cards{
