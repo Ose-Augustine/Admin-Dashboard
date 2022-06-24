@@ -47,7 +47,6 @@ header{
 }
 .sidebar{
     grid-area:1/1/4/2;
-    border:5px solid blue;
     background-color:#06b6d4;
 }
 main{
@@ -97,4 +96,7 @@ ul li span:last-of-type{
     flex-direction: column;
     justify-content: space-between;
     padding:20px;
+}
+.sidebar section ul > li{
+    padding:0.5em;
 }
