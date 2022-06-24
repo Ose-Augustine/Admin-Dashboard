@@ -48,6 +48,7 @@ header{
 .sidebar{
     grid-area:1/1/4/2;
     border:5px solid blue;
+    background-color:#06b6d4;
 }
 main{
     /*as child container*/
@@ -85,4 +86,7 @@ main article{
 }
 ul{
     list-style-type: none;
+}
+ul li span:first-of-type{
+    color:white;
 }
