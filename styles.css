@@ -87,6 +87,14 @@ main article{
 ul{
     list-style-type: none;
 }
-ul li span:first-of-type{
+ul li span:first-of-type,
+ul li span:last-of-type{
     color:white;
+    font-weight: bold;
+}
+.sidebar article{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding:20px;
 }
